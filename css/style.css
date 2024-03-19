@@ -127,6 +127,10 @@ body{
     height: 610px;
     margin-top: 7px;
 }
+.sliderimg
+{
+    height: 610px;
+}
 .box{
    display: flex;
    flex-direction: row;
@@ -328,4 +332,130 @@ ul{
     color:#24262B;
     background-color: #fff;
     /* text-align: center; */
+}
+@media only screen and (max-width:1430px)
+{
+ .tagline h3  
+ {
+    font-size:14px;
+ }
+ .button
+ {
+    width:60%;
+    left:60px;
+    bottom:5px;
+}
+.button a
+{
+    padding-left: 30px;
+}
+}
+@media only screen and (max-width:1150px)
+{
+    .box .b1
+   {
+    flex-basis: 46%;
+    height:400px;
+   }
+.tagline h3  
+{
+   font-size:17px;
+}
+.button a
+{
+    padding-left: 60px;
+}
+}
+@media only screen and (max-width:970px)
+{
+.wname
+{
+ display: flex;
+  flex-direction:column;
+  align-items: center;
+  width:100%;
+}
+.wname .menu
+{
+    width: 100%;
+}
+.button a
+{
+    padding-left: 30px;
+}
+.b1-img
+{
+    padding-top:50px;
+}
+.tagline h3  
+{
+   font-size:17px;
+   height: 50px;
+   padding-left: 20px;
+}
+}
+@media only screen and (max-width:715px)
+{
+    .button a
+    {
+        padding-left: 60px;
+        font-size: 15px;
+    } 
+}
+@media only screen and (max-width:615px)
+{
+  .wname .menu
+  {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    font-size:10px;
+  }
+  .wname .name{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 25%;
+    margin-left: -30px;
+}
+  .slider{
+    height: 350px;
+    margin-top: 7px;
+}
+.sliderimg
+{
+    height: 350px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    justify-content:center;
+    flex-wrap: wrap;
+ }
+.box .b1
+{
+ flex-basis: 80%;
+ height:400px;
+}
+.button
+ {
+    width:40%;
+    left:100px;
+    bottom:5px;
+}
+.button a
+{
+    text-align: center;
+    padding-left: 10px;
+}
+}
+@media only screen and (max-width:450px)
+{
+    .button
+ {
+    width:40%;
+    left:80px;
+    bottom:5px;
+}
 }
