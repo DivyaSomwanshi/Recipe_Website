@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.container1
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    min-height: 400px;
+}
+.help{
+    width: 80%;
+    height: 40px;
+    background-color: #EC8F5E;
+    display: flex;
+    flex-direction: row;
+    position:fixed;
+    z-index: 1;
+   
+}
+.help .contact{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 70%;
+}
+.help .contact h3
+{
+    color: white;
+    padding-top: 10px;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.help .icons{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    flex-basis: 25%;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.icons .b1
+{
+    padding-left: 30px;
+    color: white;
+    font-size: 1.3em;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.icons .b1:hover{
+   
+    color: white;
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+.wname{
+    margin-top: 50px;
+    width: 100%;
+    min-height: 40px;
+    background-color: #F3B664;
+    display: flex;
+    flex-direction: row;
+}
+.wname .name{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 25%;
+    margin-left: 10px;
+}
+.name .logo{
+    width:70px;
+    height:70px;
+    padding-top:10px ;
+}  
+.wname .name h1
+{
+    color: rgb(6, 6, 6);
+    padding-left: 8px;
+    font-family: "Sofia", sans-serif;
+    font-size: 45px;
+    font: bold;
+    padding-top: 10px;
+}
+.wname .menu{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-around;
+    flex-basis: 75%;
+    padding-top: 15px;
+    padding-left: 20px;
+
+}
+.wname .menu a
+{
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 30px;
+    padding: 10px;
+    color: white;
+    font-size: 1.3em;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.menu a:hover{
+    color: black;
+    background-color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.about_form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 400px;
+    margin-top: 20px;
+}
+.about_t{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    min-height: 400px;
+    margin-top: 50px;
+}
+.about_form h1{
+    margin-top: 20px;
+    padding-left: 35%;
+}
+.bline
+{
+    display: flex;
+    flex-direction: row;
+    width:10%;
+    height: 4px;
+    border-radius: 30px;
+    background-color: rgb(77, 112, 100);
+    margin-left: 43%;
+    margin-top: 15px;
+   
+}
+.about_form .about_t .img1{
+    flex-basis: 40%;
+    height: 350px;
+}
+.about_form .about_t .img1 img{
+    border-radius: 30px;
+}
+.about_t .info{
+    padding-top: 30px;
+    flex-basis: 45%;
+    height: 350px;
+    font-size: 20px;
+}
+
+.about_form1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 400px;
+    margin-top: 20px;
+}
+.about_form1 h1{
+    padding-top: 10px;
+    padding-left:60px;
+}
+.about_t1{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    min-height: 400px;
+    margin-top: 20px;
+}
+
+.about_form1 .about_t1 .img1{
+    flex-basis: 40%;
+    height: 350px;
+}
+.about_form1 .about_t1 .img1 img{
+    border-radius: 30px;
+}
+.about_form1 .about_t1 .info{
+    padding-top: 30px;
+    flex-basis: 45%;
+    height: 350px;
+    font-size: 20px;
+}
+
+.footercon{
+
+    width: 100%;
+    min-height: 200px;
+    /* margin-top: 100px; */
+}
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style-type: none;
+}
+.footer{
+    background-color: #0b0b0b;
+    margin-top: 60px;
+    padding: 50px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 1.1em;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 20px;
+    bottom: -10px;
+    background-color: #e87122;
+    height: 2px;
+    box-sizing: border-box;
+    width: 40px;
+
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 1em;
+    text-transform: capitalize;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 100;
+    display: block;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color:#fff;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    display: block;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 25px;
+    text-align: center;
+    line-height: 40px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    -webkit-border-radius:50%;
+    color: #fff;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+.footer-col .social-links a:hover{
+
+    color:#24262B;
+    background-color: #fff;
+    /* text-align: center; */
+}
+@media only screen and (max-width:1150px){
+    .about_t .info{
+        padding-top: 30px;
+        flex-basis: 50%;
+        height: 350px;
+        font-size: 16px;
+    }
+    .about_form1 .about_t1 .info{
+            padding-top: 30px;
+            flex-basis: 50%;
+            height: 350px;
+            font-size: 16px;
+        }
+}
+@media only screen and (max-width:750px)
+{
+    .about_t
+    {
+        flex-direction: column;
+    }
+    .about_t1{
+        display: flex;
+        flex-direction: column;
+    }   
+
+}
